@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: helvetica,arial;
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+    height: 90px;
+    background-color: #262626;
+    padding: 30px 0;
+}
+
+footer{
+    height: 50px;
+    background-color: #44b874;
+    padding: 30px 0;
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: 950px;
+}
+
+#conteudo{
+    padding: 30px 0;
+}
+
+#menu{
+    float: right;
+    padding: 30px 0;
+}
+
+#menu a{
+    text-decoration: none;
+    padding: 40px 40px;
+    color: #e3e3e3;
+    text-shadow: 1px 1px 1px #111;
+    font-size: 22px;
+}
+
+#menu a:hover{
+    background-color: #44b874;
+}
+
+#botao-curso {
+    padding: 3px 5px;
+    margin: 8px;
+    border-radius: 6px;
+    background-color: #44b87473;
+    font-weight: bolder;
+}
